@@ -3,8 +3,8 @@
 
 body {
 
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+  padding: 0;
     background-color: hsl(30, 54%, 90%);
     font-size: 16px;
     height: 1900px;
@@ -50,16 +50,16 @@ body {
 
 .recipe__page {
     overflow: hidden;
-    display: inline-block;
-    position: absolute;
-    width: 40%;
+    position: relative;
+    top: 100px;
+    max-width: 40%;
+    
     height: auto;
     border-radius: 20px;
-    left: 30%;
-    right: auto;
-    top: 13%;
     background-color: aliceblue;
     padding: 2%;
+    margin:  auto;
+    
 }
 
 .recipe_img {
@@ -218,4 +218,14 @@ span {
 
 .first-line__value {
     font-weight: bold;
+}
+
+
+@media  (max-width:760px) {
+   .block-recipe {
+     margin: -20% -55% -10% -55%;
+     }
+   
+
+
 }
