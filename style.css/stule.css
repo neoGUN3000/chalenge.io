@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+body {
+
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    height: 1900px;
+
+}
+
+/* ПЕРЕМЕННЫЕ  */
+
+
+
+
+.font-family-for-title {
+    font-family: 'Young Serif', serif;
+}
+
+.color-of-regular-text {
+    color: hsl(30, 10%, 34%);
+}
+
+/* prfeporation list */
+.color-prep {
+    color: hsl(332, 51%, 32%);
+}
+
+/* цвет всех оглавлений */
+.color-title {
+    color: hsl(17, 77%, 35%);
+}
+
+.family_Outfit {
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+
+/* //////////////SECTION-1///////////// */
+
+
+
+
+
+
+.recipe__page {
+    overflow: hidden;
+    
+    top: 100px;
+    width: 40%;
+    
+    height:auto;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 2%;
+    margin:  100px auto;
+    
+}
+
+.recipe_img {
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.recipe_h1 {
+    /* margin: 5% auto; */
+    margin: 10px;
+    font-size: xx-large;
+}
+
+
+.dish_description {
+    margin-left: 2%;
+    background-color: aliceblue;
+    font-size: 85%;
+
+}
+
+
+
+
+
+
+
+
+
+/* //////////////SECTION-2///////////// */
+
+
+
+
+
+
+
+
+.section-2 {
+    display: inline-block;
+    background-color: hsla(329, 67%, 92%, 0.623);
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    min-width: 175px;
+}
+
+.label-of-list {
+    font-weight: 600;
+    margin: 8%;
+    position: relative;
+    top: 15px;
+}
+
+
+.Preparation-list {
+    margin: 4%;
+}
+
+.Preparation-list_itsms {
+    padding: 4px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+
+
+
+
+/* //////////////SECTION-3///////////// */
+
+
+
+
+
+
+
+
+
+.ingredients-list_items {
+    font-family: 'Outfit', sans-serif;
+    padding: 3px;
+}
+
+hr {
+    opacity: 0.7;
+    margin-left: 10px;
+}
+
+
+
+
+
+/* //////////////SECTION-4///////////// */
+
+
+
+.instructions {
+    margin-left: 3%;
+}
+
+.instuction_steps {
+    margin: auto;
+    min-width: 10px;
+    list-style: none;
+    position: relative;
+    left: -10px;
+}
+
+span {
+    font-weight: bold;
+    margin-left: -2%;
+    padding-right: 18px;
+}
+
+.steps-oder {
+
+    font-size: 16px;
+    margin: 20px;
+    text-indent: -1.4em;
+
+    line-height: auto;
+
+}
+
+
+
+
+
+
+/* //////////////SECTION-5///////////// */
+.Nutrional {
+    margin-left: 15px;
+
+}
+
+.Nutrition__title{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+
+.Nutrional_table__first-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20%;
+}
+
+.first-line__Calories {
+    margin-left: 30px;
+
+}
+
+.first-line__value {
+    font-weight: bold;
+}
+
+
+@media  (max-width:760px) {
+   .block-recipe {
+
+width:95%;
+margin: ;
+
+
+     }
+
+     .recipe__page{
+      width: 100%;
+    
+   
+     }
+   
+
+
+}
